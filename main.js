@@ -313,6 +313,8 @@
 
 // const truthy =  b === b  ? console.log(nameOne) : console.log(surname);
 
+// FUNKCJE
+
 // function hello () {
 //     console.log("siema świecie")
 //     console.log("to życie na grzbiecie")
@@ -593,73 +595,3 @@
 //         userAddressPostal: "37-450",
 //     }
 // };
-
-// console.log(user.userName)
-
-// console.log(user);
-
-// let user1 = {
-//     name: "Rafał"
-// };
-
-// const user2 = user1;
-
-// console.log(user1.name);
-// console.log(user2.name);
-
-// user1 = {name: "Bartek"};
-
-// console.log(user1.name);
-// console.log(user2.name);
-
-// const user = {
-//     name: "Samuel"
-// };
-
-// console.log(user.surname);
-
-
-// function printUserSurname(user){
-//     if(user.surname !== undefined){
-//         console.log(user.surname); 
-//     } else {
-//         console.log("nieznane")
-//     }
-// };
-
-
-// printUserSurname({name: "Samuel"});
-// printUserSurname({name: "Samuel", surname: "vimes"})
-
-
-
-// function printUserSurname(user){
-
-//     if(user.surname){
-//         console.log(user.surname);
-//     } else {
-//         console.log("nieznane")
-//     }
-// };
-
-// printUserSurname({name: "Samuel"});
-// printUserSurname({name: "Samuel", surname: null});
-// printUserSurname({name: "Samuel", surname: "vimes"})
-
-
-// let obj = {};
-// const obj2 = obj;
-// obj.name = "alek";
-// console.log(obj.name);
-// console.log(obj2.name);
-
-// const obj3 = { name: obj.name};
-// console.log(obj3);
-
-// obj = { size: "S"};
-// obj.name = "2"; 
-// console.log(obj.name);
-// console.log(obj.size);
-// console.log(obj2.name);
-
-
