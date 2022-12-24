@@ -1,3 +1,304 @@
+// PĘTLA IF ELSE
+
+// tweetType = "blablabla";
+
+// if(tweetType === "" ){
+//     console.log("inny");
+// } else if ( tweetType === "followed") {
+//     console.log("zwykły")
+// } else if (tweetType === "promotional"){
+//     console.log("promocyjny")
+// } else {
+//     console.log("blablabla ")
+// }
+
+// FUNKCJA X = 5 + A
+
+// function addFive(a){
+//     let result = 5 + a;
+//     console.log(result);
+//     return result; 
+// }
+
+// addFive(10)
+
+
+
+// FUNKCJA DRUKUJĄCA GWIAZDKI W RZĘDZIE ORAZ TRÓJKĄT
+// function printStars(a){
+//     let stars = "";
+//     for(let i = 1; i <= a; i++){
+//     stars += "*";}
+
+//     console.log(stars);   
+// }
+
+// printStars(1);
+
+// function triangleStars(b){
+//     for(let i = 1; i <= b; i++) {
+//     printStars(i);}
+
+// }
+
+// console.log(triangleStars(10));
+
+
+
+// WYPISZ NAJMNIEJSZĄ LICZBĘ
+// function min(a, b, c) {
+//     if(a >= b && c >= b ){
+//         return b;
+//     }
+//     else if(b >= a && c >= a ){
+//         return a;
+//     }
+//     else{
+//         return c;
+//     }
+// }
+
+// console.log (min(-110, 2, 3));
+
+//  WYPISZ 10 - 5
+// for (let i = 10; i >= 5; i-- ) {
+//     console.log(i);
+// }
+
+
+// WYDRUKUJ PĘTLE OD 5 DO 30 BEZ 30
+// for(i = 5; i < 30; i++){
+//     console.log(i);
+// }
+
+// WYPISZ CO DRUGĄ LICZBĘ OD 20 DO 0
+
+// for(i = 20; i >= 0; i--, i--){
+//     console.log(i);
+// }
+
+
+
+// FUNKCJA DODAWANIA A + B
+// function add(a, b){
+//     console.log( a + b);
+// }
+
+// add(1, 2)
+
+
+// DRUKUJE OD NAJMNIEJSZEJ DO NAJWIĘKSZEJ
+// function next(a, b){
+//     for(i = a; i <= b; i++)
+//     {
+//         console.log(i);
+//     }
+// }
+
+// next(1, 4)
+
+
+// WYDRUKUJ GWIAZDKI W LINII
+
+// function stars(a){
+//     let star = "";
+//     for(i = 0; i <= a; i++){
+//         star += "*";
+//     }
+//     console.log(star);
+// }
+
+// stars(0)
+
+// function square(a){
+//     for(i = 0; i <= a ; i++){
+//         stars(a);
+//     }
+// }
+
+// square(5)
+
+// TRÓJKĄT Z GWIAZDEK
+
+// function triangle(c){
+//     for(i = 0; i <= c; i++){
+//         i -= 1;
+//         stars(i);
+//     }
+
+// }
+
+// triangle(10)
+
+// ZAMIENIA DNI NA SEKUNDY
+
+// function mili(a){
+//     return a * 24 * 60 * 60 * 1000;
+// }
+
+// console.log(mili(1))
+
+// POLE TRÓJKĄTA
+
+// function triangle(a, b){
+//     return a * b / 2;
+// }
+
+// console.log(triangle(1, 2));
+
+
+// WYBIERA NAJWIĘKSZĄ WARTOŚĆ
+
+// function max(a, b, c){
+//     if(a >= b && a >= c){
+//         return a;
+//     } else if ( b >= a && b >= c) { 
+//         return b
+//     } else {
+//         return c;
+//     }
+// }
+
+// console.log(max(1, 2, 13));
+
+// FUNKCJE MATEMATYCZNE
+
+// console.log(Math.pow(4, 2) * Math.PI )
+
+// console.log(Math.log10(20 * 30 + 40))
+
+// console.log(Math.log2(Math.pow(10, -5)))
+
+// console.log(Math.abs((Math.pow(-3, 7))))
+
+
+// FUNKCJE CIĄG DALSZY
+
+// function add1(a, b){
+//     return a + b;
+// ;}
+
+// console.log(add1(1, 2));
+
+
+// const add2 = function(a, b){
+//     return a + b;
+// };
+
+// console.log(add2(1, 2));
+
+
+// function callFunction(fun){
+//     fun();
+// };
+
+// function printName(){
+//     console.log("maciek");
+// ;}
+
+// const printSecondName = function (){
+//     console.log("marta");
+// };
+
+// printName();
+// printSecondName();
+
+// callFunction (function() {
+//     console.log("figa");
+// });
+
+
+// callFunction(printName);
+// callFunction(printSecondName);
+// callFunction(function(){
+//     console.log("maciek");
+// });
+
+// printName();
+// printSecondName();
+// const fun = function(){
+//     console.log("maciek")
+// };
+// fun();
+
+
+// ĆWICZENIE FUNCjE JAKO WARTOŚCI
+
+// function speak(before, after){
+//     if(before && typeof before === "function"){
+//         before();
+//     }
+
+//     console.log("mowa...");
+//     if(after && typeof after === "function"){
+//         after();
+//     }
+// }
+
+// function cheerKids(){
+//     console.log("hej, dzieci");
+// };
+
+// function cheerAll(){
+//     cheerKids();
+//     console.log("witam rodziców");
+// };
+
+// function bless(){
+//     console.log("zdrowia!");
+// };
+
+// speak();
+// speak(cheerKids);
+// speak(cheerAll);
+// speak(cheerAll, bless);
+// speak(bless);
+// speak(undefined, bless)
+
+// OBIEKTY 
+
+// const user = {
+//     name: "triss",
+//     surname: "merigold",
+//     useMagic: true
+// }
+
+// console.log(user.name)
+
+
+// zmienna user pozostaje ta sama ale elementy jej środka można zmieniać 
+// user.name = "ok"
+
+// console.log(user.name)
+
+// ĆWICZENIE OBIEKTY
+
+// const user = {
+//     userName: "Kuba",
+//     userSurname: "Wędrowycz"
+// };
+
+// const address = {
+//     postal: {
+//         userAddressPostal: "22 - 222",
+//     },
+
+//     addressCountry: "Poland", 
+//     userAddressCity: "Stalowa wola",
+//     userAddressStreet: "pedofila II"
+
+// };
+
+// console.log(address.addressCountry);
+
+// const book = {
+//     bookTitle: "Karpe Bijem",
+//     bookReleaseYear: "2019"
+// }
+
+// console.log(book.bookTitle)
+
+
 // for( let i = 20; i >= 0; i -= 2 ) {
 //     console.log(i);
 // }
@@ -362,10 +663,3 @@
 // console.log(obj2.name);
 
 
-let obj = {};
-const obj2 = obj;
-obj.name = "Paweł";
-console.log(obj.name);
-console.log(obj2.name);
-obj2.name = "zdzichu";
-console.log(obj.name)
