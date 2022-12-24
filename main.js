@@ -595,3 +595,30 @@
 //         userAddressPostal: "37-450",
 //     }
 // };
+
+// KONTO BANKOWE
+
+// function MakeAccount(){
+//     this.deposit = function(amount){
+//         this.balance = 0,
+//         this.balance += amount;
+//         return this.balance
+//     }
+
+//     this.withdraw = function(amount){
+//         amount = Math.min(this.balance, amount);
+//         this.balance-= amount;
+//         return amount;
+//     }
+
+//     this.currentBalance = function(){
+//         return this.balance
+//     }
+// }
+
+// const account = new MakeAccount();
+// const deposit = account.deposit(1000);
+// console.log(account.currentBalance());
+
+// const withdraw1 = account.withdraw(300);
+// console.log(account.currentBalance());
