@@ -622,3 +622,59 @@
 
 // const withdraw1 = account.withdraw(300);
 // console.log(account.currentBalance());
+
+// ITERACJA  PO TABLICY
+
+// const shoppingList = ["jabłko", "banan", "sliwka"];
+
+// for(let i = 0; i < shoppingList.length; i++){
+//     const item = shoppingList[i];
+//     console.log(item);
+// }
+
+
+
+// ITERACJA ALE RAZEM Z PRZECINKEIM
+
+// const shoppingList = ["jabłko", "banan", "śliwka"];
+
+// let shoppingListText = "";
+// for(let i = 0; i < shoppingList.length; i++){
+//     const item = shoppingList[i];
+//     shoppingListText += item + ", ";
+// }
+
+// console.log(shoppingListText);
+
+
+
+// ITERACJA ale na ostatniej pozycji nie ma przecinka
+
+// const shoppingList = ["jablko", "banan", "śliwka"];
+
+// let shoppingListText = "";
+// for (let i = 0; i < shoppingList.length; i++){
+//     const item = shoppingList[i];
+//     shoppingListText += item;
+//     if(i !== shoppingList.length - 1){
+//         shoppingListText += ", "
+//     }
+// }
+
+// console.log(shoppingListText)
+
+// PĘTLA FOREACH
+
+    // function forEach(array, operation){
+    //     for(let i = 0; i < array.length; i++){
+    //         const element = array[i];
+    //         operation(element);
+    //     }
+    // }
+  
+    // const shoppingList = ["jabłko", "banan", "śliwka"];
+    // forEach(shoppingList, function(item)
+    //     {
+    //         console.log(item)
+    //     }
+    // )
