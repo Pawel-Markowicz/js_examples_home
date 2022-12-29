@@ -678,3 +678,66 @@
     //         console.log(item)
     //     }
     // )
+
+    // DRUKUJE PO KOLEI
+    // const shoppingList = ["jabłko", "śliwka", "marchewka"];
+    // let shoppingListBetterText = "";
+
+    // shoppingList.forEach(function(item)  {
+
+    //     console.log(item)
+    // });
+
+    // DRUKUJE W JEDNYM ZDANIU OSTATNIE BEZ PRZECINKA
+
+    // shoppingList.forEach(function(item, index){
+    //     shoppingListBetterText += item;
+    //     if(index !== shoppingList.length - 1){
+    //         shoppingListBetterText += ", ";
+    //     }
+    // }
+    // );
+
+    // console.log(shoppingListBetterText);
+
+
+
+    // ĆWICZENIE FOREACH 
+
+
+    // 1
+    // const list = ["hełm ", "claymore ", "kolczuga ", "złoto "];
+
+    // let listText = "";
+
+    // list.forEach(function(item, index){
+    //     listText += "na pozycji " + index + " " + "znajduje się " + item;
+        
+    // })
+
+    // console.log(list[1])
+
+
+    // 2 
+    // DODAJE WSZYSTKIE ELEMENTY TABLICY
+    // const list = [1, 12, 134, 11];
+    // let listSum = 0;
+
+    // list.forEach(function(item){
+    //     listSum += item;
+    // })
+
+    // console.log(listSum)
+
+
+    // DODAJE PARAMETRY Z TABLICY, DWIE FUNKCJE
+
+    // function sumAll(numbers){
+    //     let sum = 0;
+    //     numbers.forEach(function (number){
+    //         sum += number;
+    //     });
+    //     return sum;
+    // }
+
+    // console.log(sumAll([1, 2]))
