@@ -741,3 +741,135 @@
     // }
 
     // console.log(sumAll([1, 2]))
+
+
+    // FUNKCJA MAP
+//     // DUŻE LITERY
+    // const shoppingList = ["jabłko", "banan", "ananas"];
+    // const numbers = [1, 2, 3, 4];
+    // const upper = [];
+
+//     shoppingList.forEach(function(item){
+//         upper.push(item.toUpperCase());
+//     });
+
+//     console.log(upper);
+
+// // POTĘGOWANIE
+
+//     const numberSquares = [];
+//     numbers.forEach(function(item){
+//         numberSquares.push(item * item);
+//     });
+
+//     console.log(numberSquares);
+
+// FUNKCJA MAP STRZAŁKOWA
+// let shoppingList = ["jabłko", "banan", "ananas"];
+// let upper = (item) => item.toUpperCase();
+
+// const result = shoppingList.map(upper)
+
+// console.log(result);
+
+
+
+// ĆWICZENIE MAP
+
+// const users = [
+//     {firstName: "Turanga ", lastName:  " Leela " },
+//     {firstName: " amy ", lastName: " wong "},
+//     {
+//         firstName: " Philip ",
+//         secondName: " jay ",
+//         lastName: " Fry "
+//     },
+//     {
+//         firstName: " bender ",
+//         secondName: " bending ",
+//         lastName: " Rodriugez "
+//     }
+// ];
+
+
+// let fullName = [""]
+
+// const toFullNames = users.map(function(item){
+//     return fullName += item.firstName + item.secondName + item.lastName;
+// })
+
+// console.log(toFullNames)
+
+
+// function toFullnames(users){
+//     return users.map(function(user){
+//         if(user.secondName){
+//             return user.firstName + " " + user.secondName +
+//             " " + user.lastName;
+//         } else {
+//             return user.firstName + " " + user.lastName
+//         }
+//     })
+// }
+
+// const fullNames = toFullnames(users);
+
+// console.log(fullNames);
+
+// FUNKCJA JOIN
+
+// const user = ["allah", "akhbar", "jaja"];
+
+// console.log(user.join(", "))
+
+// FUNKCJE STRZAŁKOWE
+
+// let add = (a, b) => a + b;
+
+// console.log(add(100, 200))
+
+// FUNKCJA MAP A FUNKCJA STRZAŁKOWA
+
+// const shoppingList = ["jabłko", "banan", "śliwka"];
+// const numbers = [1, 2, 3, 4];
+
+// let text = "";
+// shoppingList.forEach(item => text += item + ", ");
+// console.log(text);
+
+// const upper = shoppingList
+//     .map(item => item.toUpperCase());
+// console.log(upper);
+
+// const numberSquares = numbers.map(num => num * num);
+// console.log(numberSquares);
+
+// ĆWICZENIE FUNKCJI STRZAŁKOWEJ
+
+// const students = [
+//     {name: "Marian", score: 4.51, points: 19},
+//     {name: "Ania", score: 4.22, points: 21},
+//     {name: "ala", score: 2.22, points: 76},
+//     {name: "katarzyna", score: 4.32, points: 21},
+//     {name: "Józef", score: 1.21, points: 65},
+// ];
+
+// const list = students
+
+// FILTRUJE POWYŻEJ 3.5
+// .filter(s => s.score >= 3.5);
+// console.log(list);
+
+// FILTRUJE POWYŻEJ 60
+// .filter(s => s.points >= 60);
+// console.log(list)
+
+// DRUKUJE SCORE
+// .map(s => s.name + ", " + s.score);
+// console.log(list)
+
+// WYPISUJE WSZYSTKIE PO KOLEI
+// .forEach(str => console.log(str));
+
+// FUNKCJE STRZAŁKOWE ZAMIAST METOD
+
