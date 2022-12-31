@@ -846,13 +846,13 @@
 
 // ĆWICZENIE FUNKCJI STRZAŁKOWEJ
 
-// const students = [
-//     {name: "Marian", score: 4.51, points: 19},
-//     {name: "Ania", score: 4.22, points: 21},
-//     {name: "ala", score: 2.22, points: 76},
-//     {name: "katarzyna", score: 4.32, points: 21},
-//     {name: "Józef", score: 1.21, points: 65},
-// ];
+const students = [
+    {name: "Marian", score: 4.51, points: 19},
+    {name: "Ania", score: 4.22, points: 21},
+    {name: "ala", score: 2.22, points: 76},
+    {name: "katarzyna", score: 4.32, points: 21},
+    {name: "Józef", score: 1.21, points: 65},
+];
 
 // const list = students
 
@@ -872,4 +872,19 @@
 // .forEach(str => console.log(str));
 
 // FUNKCJE STRZAŁKOWE ZAMIAST METOD
+
+// let times = (a, b) => a * b;
+
+// let compareScoresDescening = (s1, s2) => s2.score - s1.score;
+
+// let compareNames = (s1, s2) => {if(s1.name < s2.name) return -1}; 
+// {if(s1.name > s2.name) return 1}; return 0;
+
+
+// Z FUNKCJI STRZAŁKOWYCH DO ANONIMOWYCH I NAZWANY.charAt(
+    
+function triple(i){
+    return i *= 3;
+}
+
 
